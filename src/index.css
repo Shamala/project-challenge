@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 50px;
+}
+.resultWindow {
+  border: 0.12rem solid black;
+  border-radius: 0.25rem;
+  height: 200px;
+  width: 80%;
+
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  position: absolute;
+  left: -99999px;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  width: 100%;
+  max-width: 300px;
+  min-height: 32px;
+  font-size: 1rem;
+  padding: 0.12rem;
+  border-radius: 0.25rem;
+  outline: none;
+  margin-top: 0.5rem;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 100%;
+  min-height: 32px;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
